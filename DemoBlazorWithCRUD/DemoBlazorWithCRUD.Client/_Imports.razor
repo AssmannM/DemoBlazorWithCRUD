@@ -7,3 +7,10 @@
 @using Microsoft.AspNetCore.Components.Web.Virtualization
 @using Microsoft.JSInterop
 @using DemoBlazorWithCRUD.Client
+
+@using SharedLibrary.ProductRepositories
+@using SharedLibrary.Models
+
+@inject IProductReposistory ProductService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime js
